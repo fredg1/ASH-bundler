@@ -20,7 +20,7 @@ to use, call *bundle_and_write()* with 2 or 3 arguments.<br>
 
 
 
-#### EXAMPLE:
+## EXAMPLE:
    - you run this program from your *DESKTOP*
    - you want to put the result in *C:/Users/Me/Desktop/Sekrits/my_bundled_script.ash*
    - your script is at *C:/Users/Me/Desktop/Games/Actually_entertaining_games/KoLMafia/scripts/my_script.ash*
