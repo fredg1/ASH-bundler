@@ -176,7 +176,7 @@ def bundle_and_write(path_to_file,path_to_result,path_to_folder = '',allow_overw
     open_mode = 'w'
 
   path_to_target_dir = os.path.dirname(path_to_result)
-  if not os.path.exists( path_to_target_dir ):
+  if not path_to_target_dir == '' and not os.path.exists( path_to_target_dir ):
     os.makedirs( path_to_target_dir )
 
   imported_files = []
