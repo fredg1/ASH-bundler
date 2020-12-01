@@ -1,9 +1,10 @@
 # ASH Bundler
 
-to use, call *bundle_and_write()* with 2 or 3 arguments.<br>
+to use, call *bundle_and_write()* with 2, 3 or 4 arguments.<br>
 ### **argument 1**, *path_to_file*: path to the script you want to bundle.
    WARNING: this path needs to be **relative to your mafia folder.**<br>
    This means this value will always be either "relay/[...].ash" or "scripts/[...].ash"<br>
+   (or... "planting/[...].ash", I guess..?)<br>
     example: "relay/relay_TourGuide.ash"<br>
 
 ### **argument 2**, *path_to_result*: path to the soon-to-be-created bundled file.<br>
