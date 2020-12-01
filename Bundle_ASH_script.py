@@ -154,7 +154,7 @@ def bundle(path_to_file,path_to_folder,resulting_file = """""",imported_files = 
         import_command = import_command[start_index:end_index]
         #now import
         if import_command not in imported_files:
-          imported_files.append(import_command)
+          imported_files.append( os.path.normpath(import_command) )
           resulting_file = bundle(import_command, path_to_folder, resulting_file, imported_files)
           resulting_file += '\n'
 
