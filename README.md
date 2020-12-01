@@ -19,10 +19,11 @@ to use, call *bundle_and_write()* with 2, 3 or 4 arguments.<br>
    Otherwise, this is the folders that this script has to go through to reach your mafia folder<br>
     (or whatever folder contains the "scripts" and/or "relay" folder(s) containing your scripts to import)<br>
 
-### **argument 4**, *allow_overwrite* (optional): *true*
+### **argument 4**, *allow_overwrite* (optional): *True*
+   The capital T matters.<br>
    A safety measure; whether or not you allow the script to act<br>
    if *path_to_result* already exists.<br>
-   Not including it makes it default to *false*.
+   Not including it makes it default to *False*.
 
 
 
